@@ -55,6 +55,7 @@ const deleteMovieHandler = (movieId) => {
   // automatically clears event listeners attached to that element
   closeMovieDeletionModal();
   updateUI();
+  console.log('test');
 };
 
 const closeMovieDeletionModal = () => {
